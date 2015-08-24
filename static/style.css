@@ -19,3 +19,25 @@ a:visited {
 
     color:green;
 }
+
+table.jGameBoard {
+    background-color: #0033CC;
+    color: yellow;
+
+    font-family: sans-serif;
+
+}
+
+table.jGameBoard * td {
+    border: 2px solid yellow;
+    padding: 4px;
+}
+
+tr.jHead td {
+    text-align:center;
+}
+
+tr.jBoard {
+    font-weight: bold;
+    font-size: 200%;
+}

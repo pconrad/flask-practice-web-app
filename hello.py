@@ -14,6 +14,10 @@ def renderPage1():
 @app.route('/page2')
 def renderPage2():
     return render_template('page2.html')
+
+@app.route('/page3')
+def renderPage3():
+    return render_template('page3.html')
     
 if __name__=="__main__":
     app.run(debug=False,host="0.0.0.0",port=54321)
